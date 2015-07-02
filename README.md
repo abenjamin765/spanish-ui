@@ -1,5 +1,6 @@
 # spanish-ui
-A cheat-sheet for common UI terms translated to Spanish. 
+A cheat-sheet for common UI terms translated to Spanish.
+[Check out the Spanish-UI Cheat-sheet](http://atlantadesign.ninja/spanish-ui/)
 
 ## Contributions are welcome!
 To contribute:
