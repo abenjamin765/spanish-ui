@@ -1,0 +1,15 @@
+---
+title: English to Spanish UI Cheat-sheet
+layout: default
+---
+<h1>{{page.title}}</h1>
+<ul class="translations">
+{% for language in site.data.info.language %}
+  <li>
+    <div>
+      <p class="english">{{ language.english }}</p>
+      <p class="spanish">{{ language.spanish }}</p> 
+    </div>
+  </li>
+{% endfor %}
+</ul>

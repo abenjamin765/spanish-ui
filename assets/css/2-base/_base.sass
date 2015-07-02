@@ -1,0 +1,58 @@
+#wrapper
+  max-width: 960px
+  margin: 0 auto
+
+h1
+  font-weight: 200
+  text-align: center
+  padding: 100px 30px
+  background: #f4f4f4
+.translations
+  li
+    padding: 50px
+    font-size: 6vw
+    .english
+      color: #666
+    .spanish
+      color: red
+    + li
+      border-top: dotted 1px #ccc
+.translations-a
+  text-align: center
+  padding: 50px
+  li
+    display: inline-block
+    text-align: center
+    padding: 10px
+    div
+      +size(100px)
+      vertical-align: middle
+      padding: 20px
+      position: relative
+
+      p
+        border-radius: 50%
+        position: absolute
+        background: black
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        line-height: 140px
+        color: white
+
+      .english
+        z-index: 1
+      .spanish
+        z-index: 0
+        background: white
+        color: black
+        opacity: 0
+        margin: -5px
+        line-height: 150px
+
+      &:hover  .spanish
+        z-index: 2
+        opacity: 1
+        +transition
+        cursor: zoom-in

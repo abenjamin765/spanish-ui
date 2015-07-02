@@ -1,0 +1,12 @@
+# Site settings
+title: AT&amp;T
+description: Shop AT&amp;T for special offers on the latest phones like iPhone 6 and Galaxy S5. Find incredible deals on U-verse Internet, TV and Home Phone bundles.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.att.com" 
+
+# Build settings
+markdown: kramdown
+port: 8000
+sass:
+  sass_dir: assets/css
+  style: :nested
