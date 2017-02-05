@@ -4,3 +4,17 @@ language:
 - {english: Offers,  spanish: Ofertas}
 - {english: Search,  spanish: Buscar}
 - {english: Categories,  spanish: Categorías}
+- {english: User,  spanish: Usuario}
+- {english: Password,  spanish: Contraseña}
+- {english: Cancel,  spanish: Cancelar}
+- {english: Send,  spanish: Enviar}
+- {english: Exit,  spanish: Salir}
+- {english: Name,  spanish: Nombre}
+- {english: Help,  spanish: Ayuda}
+- {english: Settings,  spanish: Configuración}
+- {english: Details,  spanish: Detalles}
+- {english: Add,  spanish: Añadir}
+- {english: Yes,  spanish: Sí}
+- {english: No,  spanish: No}
+- {english: Delete,  spanish: Borrar}
+
